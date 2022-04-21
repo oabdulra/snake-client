@@ -12,7 +12,8 @@ const connect = function () {
 
   console.log("Connecting ...");
   
-
+  //this is to detect what user is inputting
+  
   conn.on('data', (data) => {
     console.log(data);
   });
