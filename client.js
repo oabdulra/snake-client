@@ -12,18 +12,9 @@ const connect = function () {
 
   
   conn.on('connect', () => {
-
-    console.log("Connecting ...");
     conn.write('Name: OAR');
-    console.log("Successfully connected to game server");
-
-    setInterval(() => {
-      //conn.write('Move: up');
-      //conn.write('Move: down');
-    }, 100);
-
-    
-  })
+    console.log("Successfully connected to game server");   
+  });
 
   
   
