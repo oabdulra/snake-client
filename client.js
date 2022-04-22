@@ -16,7 +16,16 @@ const connect = function () {
     console.log("Connecting ...");
     conn.write('Name: OAR');
     console.log("Successfully connected to game server");
+
+    setInterval(() => {
+      //conn.write('Move: up');
+      //conn.write('Move: down');
+    }, 100);
+
+    
   })
+
+  
   
   //this is to detect what user is inputting
   
