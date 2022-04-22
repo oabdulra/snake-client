@@ -22,11 +22,11 @@ const connect = function () {
   
   //this is to detect what user is inputting
   
-  setInterval( () => {
+  
   conn.on('data', (data) => {
     console.log(data);
   });
-}, 5000);
+
 
   return conn;
 };
